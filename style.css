@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    color: white;
+}
+.background-image{
+    background: url("images/pexels-christina-morillo-1181325.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.name-text{
+    color: rgb(59, 137, 205);
+}
+
+header{
+    background-color: black;
+    height: 60px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header.text{
+    color: white;
+}
+
+span{
+    color: rgb(59, 137, 205);
+}
+
+ul{
+display: flex;
+gap: 2em;
+margin-right: 10rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(59, 137, 205);
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.background-image{
+    display: flex;
+}
+
+p{
+    color: black;
+}
+
+.project-text{
+    color: black;
+    font-weight: 200;
+}
+
+.hover-div:hover{
+    box-shadow: 11px 15px 2px 0px rgba(0, 0, 0, 1);
+}
+
+h2{
+    color: black;
+}
+
+h5{
+    color: black;
+}
